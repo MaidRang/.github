@@ -117,7 +117,7 @@ MaidRang은 이러한 정보를 한 곳에서 확인할 수 있도록 만든 메
 |      React     | Spring Boot |   MySQL  |     AWS EC2    | Spring Security |
 |   TypeScript   |     Java    |  AWS RDS | GitHub Actions |       JWT       |
 |     Emotion    |     JPA     |          |      Nginx     |      OAuth2     |
-| TanStack Query |             |          |                |  Kakao / Naver  |
+| TanStack Query |             |          |                |                 |
 
 ```text
 - Frontend : React, TypeScript, Emotion, TanStack Query
@@ -191,8 +191,6 @@ MySQL RDS
 
 ```text
 사용자
-  ↓
-Kakao / Naver OAuth2 Login
   ↓
 Spring Security OAuth2
   ↓
