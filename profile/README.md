@@ -2,7 +2,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5b5f96c-9f57-458c-8137-d966bc7c23f3" width="197" />
 
-  <h3 align="center">MaidRang 🎀</h3>
+  <h3 align="center">MaidRang</h3>
 
   <p align="center">
     메이드카페 출근표 · 이벤트 · 메이드 정보를 한 곳에서 확인하는 웹 플랫폼<br>
@@ -53,7 +53,7 @@ MaidRang은 이렇게 분산된 정보를 한 곳에서 확인할 수 있도록 
 
 ## 📄 Documents
 
-- <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2026 ~ ing
+- <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2026 ~ end
   - Web&nbsp;:&nbsp;&nbsp;<a href="https://maidrang.site">maidrang.site</a>
 
 - <strong>Backend API</strong>&nbsp;:&nbsp;&nbsp;Swagger 기반 API 문서화
@@ -138,41 +138,7 @@ MaidRang은 이렇게 분산된 정보를 한 곳에서 확인할 수 있도록 
 ## 💻 Architecture
 
 ### System
-
-```text
-┌─────────────────────────┐
-│         Client          │
-│   React + TypeScript    │
-└────────────┬────────────┘
-             │
-             │ HTTPS / REST API
-             ▼
-┌─────────────────────────┐
-│          Nginx          │
-│     Reverse Proxy       │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│    Spring Boot API      │
-│  Security · JPA · REST  │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│        AWS RDS          │
-│         MySQL           │
-└─────────────────────────┘
-
-
-GitHub
-   │
-   ▼
-GitHub Actions
-   │
-   ▼
-AWS EC2 Deployment
-```
+<img src="https://github.com/user-attachments/assets/6f6550c7-655c-48e5-9fa3-2918a2e33b27" width="100%" />
 
 ```text
 - Client : React, TypeScript
@@ -183,34 +149,11 @@ AWS EC2 Deployment
 - Deployment : AWS EC2, GitHub Actions
 ```
 
-### Auth
-
-```text
-[ 사용자 ]
-     │
-     ├── Kakao Login
-     │
-     └── Naver Login
-             │
-             ▼
-[ Spring Security OAuth2 ]
-             │
-             ▼
-[ 사용자 인증 / 계정 처리 ]
-             │
-             ▼
-[ JWT 발급 ]
-             │
-             ▼
-[ Access Token 기반 API 요청 ]
-```
-
 <br>
 
-## 👨‍💻 Team
+## 👨‍👩‍👧‍👧 Team (Full Stack)
 
-| [박정우](https://github.com/jwoo13) |
-| :---: |
-| **Backend & Frontend Developer** |
-| Spring Boot · React · AWS |
-| 서비스 기획 · 도메인/DB 설계 · REST API 구현 · 프론트엔드 개발 · 배포 운영 |
+|                                              [박정우](https://github.com/jwoo13)                                              |
+| :------------------------------------------------------------------------------------------------------------------------------: |
+| <img width="300" src="https://github.com/user-attachments/assets/5dd961a4-062d-4725-bdb7-86b7c563bec2"> |
+|                                                   Backend & Frontend Developer                                                    |
