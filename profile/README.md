@@ -1,20 +1,15 @@
 <br>
-
 <div align="center">
-  <!-- 로고 이미지 추가 시 아래 주석을 해제하고 src를 교체해주세요. -->
-  <!-- <img src="로고_이미지_URL" width="190" /> -->
+  <img src="https://github.com/user-attachments/assets/e5b5f96c-9f57-458c-8137-d966bc7c23f3" width="197" />
 
   <h3 align="center">MaidRang 🎀</h3>
 
   <p align="center">
-    메이드카페의 출근표 · 이벤트 · 메이드 정보를 한 곳에서 확인하는 통합 웹 플랫폼<br>
-    <br>
-    <a href="https://maidrang.site"><strong>Web Service »</strong></a>
-    &nbsp;·&nbsp;
+    메이드카페 출근표 · 이벤트 · 메이드 정보를 한 곳에서 확인하는 웹 플랫폼<br>
+    <a href="https://maidrang.site"><strong>Web Service »</strong></a><br>
     <a href="https://github.com/MaidRang"><strong>Organization »</strong></a>
   </p>
 </div>
-
 <br>
 
 <details open>
